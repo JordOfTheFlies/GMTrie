@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"prefix_trie",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"prefix_trie",
+  "parent":{
+    "name":"GMTrie",
+    "path":"GMTrie.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

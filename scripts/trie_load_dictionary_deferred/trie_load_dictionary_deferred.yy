@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"trie_load_dictionary_deferred",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"trie_load_dictionary_deferred",
+  "parent":{
+    "name":"GMTrie",
+    "path":"GMTrie.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
