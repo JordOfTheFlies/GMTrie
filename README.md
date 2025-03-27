@@ -1,14 +1,15 @@
-Basic Compressed Prefix Trie for Gamemaker Studio 2
-Includes example project + scripts to load dictionaries from a text file in one go or deferred over several steps
+Basic Compressed Prefix Trie for Gamemaker Studio 2  
+
+Includes example project + scripts to load dictionaries from a text file in one go or deferred over several steps.  
 Free to use, just throw me a credit if you feel like it.
 
-Useful for autocompleting words from a partial beginning. Reasonably fast, and acceptable memory use. Details at the end of this README.
-GM adds quite a bit of overhead though, so what should probably be 70 MB of RAM ends up as more like 700 MB (for ~500K dictionaries).
-If you just need to confirm a word is in a dictionary, use a struct/ds_map instead as that will be faster and use a fraction of the memory.
+Useful for autocompleting words from a partial beginning. Reasonably fast, and acceptable memory use. Details at the end of this README.  
+GM adds quite a bit of overhead though, so what should probably be 70 MB of RAM ends up as more like 700 MB (for ~500K dictionaries).  
+If you just need to confirm a word is in a dictionary, use a struct/ds_map instead as that will be faster and use a fraction of the memory.  
 No spelling correction, as I neither have the patience right now to write a fuzzy sort algorithm , nor faith it will run fast enough to be worth it.
 
-Example project shows how to use it for a basic autocomplete. Only the prefix_trie file is needed for general use.
-Example project draws a public domain word list from: https://github.com/MichaelWehar/Public-Domain-Word-Lists
+An example project shows how to use it for a basic autocomplete. Only the prefix_trie file is needed for general use and the test object/room should be deleted.  
+The example project uses a public domain word list from: https://github.com/MichaelWehar/Public-Domain-Word-Lists
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
