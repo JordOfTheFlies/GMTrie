@@ -13,15 +13,15 @@ function trie_load_dictionary_deferred(_trie, _fname, _lines_per_step = 500, _ca
 					lines_per_step: _lines_per_step,
 					callback: _callback,
 					
-					file: undefined,
-					timesource: undefined,
+					file: -1,
+					timesource: -1,
 					time_started: get_timer(),
 					
 					gc_prev_target: gc_get_target_frame_time(),
 					
 					results: {
 								fname: _fname,
-					
+								
 								load_succeeded: false,
 								total_words: 0,
 								total_characters: 0,
